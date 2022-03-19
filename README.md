@@ -1,2 +1,2 @@
 # TankGame
-Unity_TankGame Project
+Unity TankGame Project
