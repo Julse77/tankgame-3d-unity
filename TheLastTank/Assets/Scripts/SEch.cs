@@ -11,13 +11,17 @@ public class SEch : MonoBehaviour
     [SerializeField]
     private string Scene001;
     private float timeElapsed;
+    public GameObject reBtn;
+    public GameObject exitBtn;
 
     private void Update()
     {
         timeElapsed += Time.deltaTime;
         if(timeElapsed > delayBeforeLoading)
         {
-            SceneManager.LoadScene("Scene001");
+            reBtn.SetActive(true);
+            exitBtn.SetActive(true);            
+            //SceneManager.LoadScene("Scene001");
         }
     }
 
