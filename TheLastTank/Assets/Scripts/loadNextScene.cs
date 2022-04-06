@@ -1,16 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
-public class loadNextScene : MonoBehaviour
-{    
-    void Update()
+public class loadNextScene : MonoBehaviour{  
+
+    public void gameStart()
     {
-        // Space 바를 누르면 다음 씬이 나오도록
-        if (Input.GetKeyDown(KeyCode.Space))
+        loadingScene.LoadScene("Scene001");        
+    }
+
+    public void gameExit()
+    {
+        if (Application.platform == RuntimePlatform.WindowsEditor)
         {
-            loadingScene.LoadScene("Scene001");
+            UnityEditor.EditorApplication.isPlaying = false;
         }
+        
+        else
+        {
+            Application.Quit();
+        }
+                
     }
 }
