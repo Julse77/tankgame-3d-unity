@@ -37,16 +37,14 @@ public class loadingScene : MonoBehaviour
             {
                 Loadingbar.fillAmount = opp.progress;
             }
-            else {
-
+            else 
+            {
                 timer += Time.unscaledDeltaTime;
-                Loadingbar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
+                Loadingbar.fillAmount = Mathf.Lerp(0.1f, 1f, timer);
                 if (Loadingbar.fillAmount >= 1f)
                 {
                     opp.allowSceneActivation = true;
                     yield break;
-                
-                
                 }
             
             }
