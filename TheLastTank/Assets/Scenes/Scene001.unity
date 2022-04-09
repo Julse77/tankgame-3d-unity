@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850265, g: 0.3713928, b: 0.49600852, a: 1}
+  m_IndirectSpecularColor: {r: 0.28371575, g: 0.37027517, b: 0.5009037, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3732,8 +3732,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1766719910}
-        m_TargetAssemblyTypeName: buttonEvent, Assembly-CSharp
-        m_MethodName: exit
+        m_TargetAssemblyTypeName: ButtonEvent, Assembly-CSharp
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6218,8 +6218,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1766719910}
-        m_TargetAssemblyTypeName: buttonEvent, Assembly-CSharp
-        m_MethodName: reStart
+        m_TargetAssemblyTypeName: ButtonEvent, Assembly-CSharp
+        m_MethodName: ReStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7853,8 +7853,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1766719910}
-        m_TargetAssemblyTypeName: buttonEvent, Assembly-CSharp
-        m_MethodName: nextStage
+        m_TargetAssemblyTypeName: ButtonEvent, Assembly-CSharp
+        m_MethodName: NextStage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13007,7 +13007,7 @@ GameObject:
   - component: {fileID: 1631927789}
   - component: {fileID: 1631927788}
   m_Layer: 0
-  m_Name: RandomTyphoon
+  m_Name: Random Typhoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14355,7 +14355,7 @@ GameObject:
   - component: {fileID: 1766719911}
   - component: {fileID: 1766719910}
   m_Layer: 0
-  m_Name: buttonEvent
+  m_Name: Button Event
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

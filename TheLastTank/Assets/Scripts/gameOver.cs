@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class gameOver : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
     [SerializeField]
     public float delayBeforeLoading = 5f;
@@ -12,11 +12,11 @@ public class gameOver : MonoBehaviour
 
     private void Update()
     {
-        cameraOff();
-        gameOverBtn();        
+        CameraOff();
+        GameOverBtn();        
     }
 
-    private void gameOverBtn()
+    private void GameOverBtn()
     {
         // 게임 오버 시 등장하는 버튼 활성화
         timeElapsed += Time.deltaTime;
@@ -27,7 +27,7 @@ public class gameOver : MonoBehaviour
         }
     }
 
-    private void cameraOff()
+    private void CameraOff()
     {
         // 메인 카메라 플레이어 탱크 따라가는 기능 비활성화
         mainCamera.GetComponent<CameraFollow>().enabled = false;

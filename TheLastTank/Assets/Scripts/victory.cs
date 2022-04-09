@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class victory : MonoBehaviour
+public class Victory : MonoBehaviour
 {
     [SerializeField]
     public float delayBeforeLoading = 5f;
@@ -15,13 +15,13 @@ public class victory : MonoBehaviour
 
     private void Update()
     {
-        rmCreate();
-        rmEnemy();
-        rmPlayer();
-        victoryBtn();            
+        RmCreate();
+        RmEnemy();
+        RmPlayer();
+        VictoryBtn();            
     }
 
-    private void victoryBtn()
+    private void VictoryBtn()
     {
         // Victory 문구와 함께 등장하는 버튼 활성화
         timeElapsed += Time.deltaTime;
@@ -32,7 +32,7 @@ public class victory : MonoBehaviour
         }
     }
 
-    private void rmEnemy()
+    private void RmEnemy()
     {
         // 모든 적 탱크 및 적 비활성화
         enemy = GameObject.FindGameObjectsWithTag("Finish");
@@ -44,7 +44,7 @@ public class victory : MonoBehaviour
 
     }
 
-    private void rmPlayer()
+    private void RmPlayer()
     {
         // 탱크 이동기능 비활성화
         player = GameObject.FindWithTag("Player");
@@ -52,11 +52,11 @@ public class victory : MonoBehaviour
         player.GetComponent<CollideCH>().enabled = false;
     }
 
-    private void rmCreate()
+    private void RmCreate()
     {
         // 랜덤으로 생성하는 기능 비활성화
         randomET.GetComponent<TankEnemy>().enabled = false;
-        randomTyphoon.GetComponent<randomTyphoon>().enabled = false;
+        randomTyphoon.GetComponent<RandomTyphoon>().enabled = false;
     }
 
 }
