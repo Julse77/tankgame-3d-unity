@@ -367,7 +367,7 @@
 "Assets/Scripts/gameOver.cs"
 "Assets/Scripts/HeadMove.cs"
 "Assets/Scripts/loadingScene.cs"
-"Assets/Scripts/loadNextScene.cs"
+"Assets/Scripts/LoadNextScene.cs"
 "Assets/Scripts/MNG.cs"
 "Assets/Scripts/randomTyphoon.cs"
 "Assets/Scripts/ScoreManager.cs"

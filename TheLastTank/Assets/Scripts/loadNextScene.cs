@@ -1,19 +1,24 @@
 ﻿using UnityEngine;
 
-public class loadNextScene : MonoBehaviour{  
+public class LoadNextScene : MonoBehaviour{  
 
-    public void gameStart()
+    public void GameStart()
     {
         loadingScene.LoadScene("Scene001");        
     }
 
-    public void gameExit()
+    public void GameExit()
     {
         if (Application.platform == RuntimePlatform.WindowsEditor)
         {
             UnityEditor.EditorApplication.isPlaying = false;
         }
         
+        else if (Application.platform == RuntimePlatform.OSXEditor)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+
         else
         {
             Application.Quit();
