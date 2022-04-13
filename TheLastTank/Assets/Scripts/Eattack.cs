@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Eattack : MonoBehaviour
 {
-    public ParticleSystem explosion;
-    public int scoreValue = 10;
+    public ParticleSystem explosion;        // 파티클
+    public int scoreValue = 10;             // 점수
     bool isDead;
 
     void OnTriggerEnter(Collider col)

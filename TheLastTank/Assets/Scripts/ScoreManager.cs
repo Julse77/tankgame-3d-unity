@@ -8,8 +8,7 @@ public class ScoreManager : MonoBehaviour
     public static int score;
     public GameObject Victorytext;
 
-        Text text;
-
+    Text text;
 
     void Awake()
     {
@@ -27,8 +26,6 @@ public class ScoreManager : MonoBehaviour
         {
             Victorytext.SetActive(true);
         }
-
-
 
     }
 }

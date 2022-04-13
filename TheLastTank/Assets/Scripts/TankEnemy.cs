@@ -14,14 +14,12 @@ public class TankEnemy : MonoBehaviour
 
     public GameObject Eprefab;
 
-    // Start is called before the first frame update
     void Start()
     {
         EcurrentTime = 0;
         ERdtime = 7f;        
     }
 
-    // Update is called once per frame
     void Update()
     {
         EcurrentTime += Time.deltaTime;
@@ -33,7 +31,7 @@ public class TankEnemy : MonoBehaviour
             Emovez = Random.Range(10f, 190f);
 
             Vector3 Epos = new Vector3(Emovex, Emovey, Emovez);
-            Instantiate(Eprefab, Epos, Eprefab.transform.rotation);      // 없는 것을 새롭게 만드는 것
+            Instantiate(Eprefab, Epos, Eprefab.transform.rotation);      // 적 탱크 랜덤위치 생성
 
             ERdtime = Random.Range(4f, 7f);
             EcurrentTime = 0;
