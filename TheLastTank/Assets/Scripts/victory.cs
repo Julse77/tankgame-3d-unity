@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Victory : MonoBehaviour
 {
-    [SerializeField]
     public float delayBeforeLoading = 5f;
     [SerializeField]
     private float timeElapsed;              // 경과된 시간
