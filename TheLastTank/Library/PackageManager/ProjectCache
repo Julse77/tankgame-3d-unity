@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637850789370000000
-    m_Hash: 4163903335
+      ticks: 637881045160000000
+    m_Hash: 2069884374
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/minjisu/Documents/GitHub/TankGame/TheLastTank/Packages
-m_EditorVersion: 2021.2.19f1 (602ecdbb2fb0)
+m_EditorVersion: 2021.3.1f1 (3b70a0754835)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.15.15
   testable: 0
@@ -79,6 +79,7 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -86,6 +87,7 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -98,6 +100,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -108,7 +111,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.15
+    verified: 1.15.16
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -271,9 +274,11 @@ m_ResolvedPackages:
     - 2.0.11
     - 2.0.12
     - 2.0.14
+    - 2.0.15
     compatible:
     - 2.0.14
-    verified: 2.0.14
+    - 2.0.15
+    verified: 2.0.15
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -433,6 +438,7 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
+    - 10.9.0
     - 12.1.6
     compatible:
     - 12.1.6
@@ -448,7 +454,7 @@ m_ResolvedPackages:
     version: 12.1.6
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.burst
     version: 1.6.5
   - name: com.unity.render-pipelines.core
@@ -2845,12 +2851,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.mathematics@1.2.5
+- packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 1.2.5
+  version: 1.2.6
   source: 1
-  resolvedPath: /Users/minjisu/Documents/GitHub/TankGame/TheLastTank/Library/PackageCache/com.unity.mathematics@1.2.5
+  resolvedPath: /Users/minjisu/Documents/GitHub/TankGame/TheLastTank/Library/PackageCache/com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -2882,9 +2888,10 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
-    - 1.2.5
-    verified: 1.2.5
+    - 1.2.6
+    verified: 1.2.6
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -2898,16 +2905,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637719892670000000
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 53b0c4756c3c0dff3746285a8b83e858c26cdb06
+    revision: f110c8c230d253654afed153569030a587cc7557
     path: 
   unityLifecycle:
-    version: 1.2.5
+    version: 1.2.6
     nextVersion: 
 - packageId: com.unity.burst@1.6.5
   testable: 0
@@ -3039,17 +3046,19 @@ m_ResolvedPackages:
     - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0
+    - 1.7.1
     compatible:
     - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0
+    - 1.7.1
     verified: 1.6.5
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   keywords: []
   registry:
     id: main
@@ -3192,6 +3201,7 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
+    - 10.9.0
     - 12.1.6
     compatible:
     - 12.1.6
@@ -3353,6 +3363,7 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
+    - 10.9.0
     - 12.1.6
     compatible:
     - 12.1.6

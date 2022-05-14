@@ -4,25 +4,18 @@ public class LoadNextScene : MonoBehaviour{
 
     public void GameStart()
     {
-        loadingScene.LoadScene("Scene001");        
+        loadingScene.LoadScene("Scene001");
     }
 
     public void GameExit()
     {
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-        
-        else if (Application.platform == RuntimePlatform.OSXEditor)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-
-        else
-        {
-            Application.Quit();
-        }
+#if UNITY_EDITOR_WIN
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_EDITOR_OSX
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
                 
     }
 }
