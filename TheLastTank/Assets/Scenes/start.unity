@@ -191,8 +191,8 @@ Canvas:
   m_GameObject: {fileID: 85765838}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1380193729}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 369779958}
   - component: {fileID: 369779957}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Button_StartBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 1011969208}
   - component: {fileID: 1011969207}
   m_Layer: 5
-  m_Name: Exit Button
+  m_Name: Button_ExitBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1140,7 +1140,7 @@ GameObject:
   - component: {fileID: 1451117255}
   - component: {fileID: 1451117254}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Image_Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1216,7 +1216,7 @@ GameObject:
   - component: {fileID: 1471312241}
   - component: {fileID: 1471312240}
   m_Layer: 5
-  m_Name: Made by
+  m_Name: Text_Madeby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1296,7 +1296,7 @@ GameObject:
   - component: {fileID: 1605145068}
   - component: {fileID: 1605145067}
   m_Layer: 5
-  m_Name: Version
+  m_Name: Text_Version
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1487,7 +1487,7 @@ GameObject:
   - component: {fileID: 1967679797}
   - component: {fileID: 1967679796}
   m_Layer: 5
-  m_Name: The Last Tank
+  m_Name: Text_TheLastTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
