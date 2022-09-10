@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class loadingScene : MonoBehaviour
+public class LoadingScene : MonoBehaviour
 {
     static string playScene;
 
@@ -14,7 +14,7 @@ public class loadingScene : MonoBehaviour
     public static void LoadScene(string sceneName)
     {
         playScene = sceneName;
-        SceneManager.LoadScene("loading");    
+        SceneManager.LoadScene("Scene_Loading");    
     }
 
     

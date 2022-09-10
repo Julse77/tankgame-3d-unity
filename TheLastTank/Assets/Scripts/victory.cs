@@ -3,8 +3,7 @@ using UnityEngine;
 public class Victory : MonoBehaviour
 {
     public float delayBeforeLoading = 5f;
-    [SerializeField]
-    private float timeElapsed;              // 경과된 시간
+    [SerializeField] private float timeElapsed;              // 경과된 시간
     public GameObject nextBtn;
     public GameObject exitBtn;
     private GameObject[] enemy;             // 적 탱크
@@ -55,7 +54,7 @@ public class Victory : MonoBehaviour
     {
         // 랜덤으로 생성하는 기능 비활성화
         randomET.GetComponent<TankEnemy>().enabled = false;
-        randomTyphoon.GetComponent<RandomTyphoon>().enabled = false;
+        randomTyphoon.GetComponent<CreateRandomTyphoon>().enabled = false;
     }
 
 }

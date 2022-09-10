@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomTyphoon : MonoBehaviour
+public class CreateRandomTyphoon : MonoBehaviour
 {
     private float Emovex;
     private float Emovey;
